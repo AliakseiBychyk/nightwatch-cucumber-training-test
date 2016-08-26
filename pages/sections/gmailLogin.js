@@ -1,3 +1,4 @@
+import userData from '../../features/step_definitions/userData'
 export default function gmailLogin() {
     return {
         elements: {
@@ -8,9 +9,15 @@ export default function gmailLogin() {
             accountName: { selector: '.gb_8a' }
         },
         commands: [{
+            navigateToLogin() {
+                this
+                    .windowMaximize()
+                    .url('https://gmail.com')
+                    .waitForElementVisible('body', 2000)
+            },
             loginPass() {
                 const loginName = "aleks.brestertester"
-                import userData from '../../features/step_definitions/userData'
+
                 this
                     .waitForElementVisible('@emailField')
                     .setValue('@emailField', loginName)
@@ -27,5 +34,3 @@ export default function gmailLogin() {
         }]
     };
 }
-
-

@@ -1,3 +1,5 @@
+require('babel-register');
+
 var nightwatchCucumber = require('nightwatch-cucumber')()
 
 module.exports = {
