@@ -1,6 +1,6 @@
 module.exports = function() {
 
-    this.Given(/^I enter to Google log-in page$/, function() {
+    this.Given(/^I enter to Gmail login page$/, function() {
         const gmailPage = this.page.gmailPage();
         const loginPage = gmailPage.section.gmailLogin;
         loginPage.navigateToLogin();

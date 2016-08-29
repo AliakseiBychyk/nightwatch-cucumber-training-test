@@ -5,9 +5,9 @@
 
   <testsuite name="successfulLogin"
     errors="0" failures="0" hostname="" id="" package="successfulLogin" skipped="0"
-    tests="1" time="4.355" timestamp="Fri, 26 Aug 2016 15:38:20 GMT">
+    tests="1" time="4.326" timestamp="Mon, 29 Aug 2016 07:34:04 GMT">
   
-    <testcase name="enter to gmail login page and successfully pass login procedure" time="4.355" assertions="0">
+    <testcase name="enter to gmail login page and successfully pass login procedure" time="4.326" assertions="0">
     </testcase>
   
   
